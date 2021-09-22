@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
    container:{
        margin:20,
-       marginBottom:350
+       marginTop:40
    } ,
    image:{
        width:'100%',
