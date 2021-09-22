@@ -3,13 +3,15 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './screens/home';
 import Post from './components/post';
+import feed from './assets/data/feed';
 
+const post1 = feed[0];
 
 export default function App() {
   return (
     <View style={styles.container}>
      {/* <HomeScreen/> */}
-     <Post/>
+     <Post post ={post1}/>
       <StatusBar style="auto" />
     </View>
   );
