@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import HomeScreen from './screens/home';
 import SearchResultsScreen from './screens/searchResults';
 import DestinationSearchScreen from './screens/destinationSearch';
+import GuestsScreen from './screens/guests';
 import Post from './components/post';
 import feed from './assets/data/feed';
 
@@ -14,7 +15,8 @@ export default function App() {
     <View style={styles.container}>
      {/* <HomeScreen/> */}
     {/* <Post post ={post1}/> */} 
-     <DestinationSearchScreen/>
+     {/*<DestinationSearchScreen /> */}
+     <GuestsScreen/>
       <StatusBar style="auto" />
     </View>
   );
